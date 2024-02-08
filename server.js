@@ -13,6 +13,6 @@ app.get('/', function(req, res){
 })
 
 const PORT= process.env.PORR || 3002
-app.listen(port,()=>{
+app.listen(PORT,()=>{
     console.log('listening on port '+PORT);
 })
